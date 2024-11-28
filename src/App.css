@@ -3,10 +3,12 @@ body {
 	background-color: rgb(229, 229, 229);
 }
 
-footer {
-	background-color: rgb(51, 51, 51);
-	color: white;
-	padding: 20px 0;
+.container {
+	max-width: 600px;
+}
+
+h2 {
+	font-size: 1.5rem;
 }
 
 button {
@@ -14,4 +16,19 @@ button {
 	color: white;
 	border-style: none;
 	padding: 10px;
+}
+
+.card {
+	margin-bottom: 80px;
+}
+
+footer {
+	font-size: 0.8rem;
+	background-color: rgb(51, 51, 51);
+	color: white;
+	padding: 40px 60px;
+}
+
+.container-footer {
+	max-width: 900px;
 }
